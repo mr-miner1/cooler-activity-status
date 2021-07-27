@@ -1,0 +1,8 @@
+{
+    "name": "Refined Game Activity",
+    "description": "Adds colors to game activity cards",
+    "version": "1",
+    "author": "mr_miner#6969",
+    "theme": "theme.scss",
+    "license": "MIT"
+}
