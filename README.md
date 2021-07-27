@@ -1,4 +1,4 @@
-# Colored Activity Cards
+# Cooler Activity Status
 ## Preview
 ![](https://i.imgur.com/neZqbTO.png)
 ![](https://i.imgur.com/zrcG74M.png)

@@ -1,6 +1,6 @@
 {
-    "name": "Refined Game Activity",
-    "description": "Adds colors to game activity cards",
+    "name": "Cooler Activity Status",
+    "description": "makes to activity cards cooler",
     "version": "1",
     "author": "mr_miner#6969",
     "theme": "theme.scss",
