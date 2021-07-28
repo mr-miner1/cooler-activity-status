@@ -1,15 +1,12 @@
 :root{
   --text-color: #fff;
-  --activity-bg: #687dc6;
+  --activity-bg: #627ee4;
   --spotify-bg: var(--spotify-color);
   --twitch-bg: #6441a5;
+  --bot-bg: #546cc4;
 }
 .activityUserPopout-2yItg2, .activityProfile-2bJRaP{
-  background-color: var(--activity-bg);
-  padding: 10px;
-  border-radius: 2%;
-  margin-bottom: 10px;
-  z-index: 1;
+  //styling
   h3, .content-3JfFJh, .activityName-1IaRLn, .details-38sfDr{
     color: var(--text-color) !important;
   }
@@ -23,47 +20,64 @@
     border-color: transparent;
     color: black !important;
   }
-  .spotifyIcon-2J9kSv{
-    margin: 5px 5px 0px 0px;
-   path{
-    fill: var(--text-color);
-  }
-  }
+  //defualt
+  background-color: var(--activity-bg);
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  z-index: 1;
+  //twitch
   .nameWrap-3Z4G_9.textRow-19NEd_.base-1x0h_U.size14-e6ZScH[title], .detailsWrap-22pigg.textRow-19NEd_{
     &::after{
       content: "";
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: -2;
     background-color: var(--twitch-bg);
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 2%;
+    border-radius: 6px;
+  }}
+  //spotify
+  .timeBarUserPopout-AWPFf2, .timeBarProfile-10b-fm{
+    &::after{
+      content: "";
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-color: var(--spotify-bg);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 6px;
+    }
   }
-}}
-.userPopout-xaxa6l .detailsWrap-22pigg.textRow-19NEd_::before{
-  left: 90% !important;
-}
-.activityProfile-2bJRaP{
   .spotifyIcon-2J9kSv{
-    margin: 0px 0px 0px 0px;
+    margin: 5px 5px 0px 0px;
+    path{
+      fill: (var(--text-color));
+    }
   }
-}
-.timeBarUserPopout-AWPFf2, .timeBarProfile-10b-fm{
-  &::after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-color: var(--spotify-bg);
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 2%;
+  // bots
+  .contentNoImagesUserPopout-PCCPyZ{
+    &::after{
+      content: "";
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+      background-color: var(--bot-bg);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 6px;
+    }
   }
 }
 .activityProfile-2bJRaP{
   margin: 10px;
   border-radius: 6px;
+  .spotifyIcon-2J9kSv{
+    margin: 0px 0px 0px 0px;
+  }
 }
