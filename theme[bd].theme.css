@@ -1,0 +1,81 @@
+/**
+* @name Cooler Activity Status
+* @author mr_miner#6969
+* @version 1
+* @description makes game activity cards cooler
+* @source https://github.com/mr-miner1/cooler-activity-status
+* @updateUrl https://github.com/mr-miner1/cooler-activity-status/blob/main/theme[bd].theme.css
+*/
+:root {
+    --text-color: #fff;
+    --activity-bg: #627ee4;
+    --spotify-bg: var(--spotify-color);
+    --twitch-bg: #6441a5;
+    --bot-bg: #546cc4;
+}
+.activityUserPopout-2yItg2, .activityProfile-2bJRaP {
+    background-color: var(--activity-bg);
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+.activityUserPopout-2yItg2 h3, .activityProfile-2bJRaP h3, .activityUserPopout-2yItg2 .content-3JfFJh, .activityProfile-2bJRaP .content-3JfFJh, .activityUserPopout-2yItg2 .activityName-1IaRLn, .activityProfile-2bJRaP .activityName-1IaRLn, .activityUserPopout-2yItg2 .details-38sfDr, .activityProfile-2bJRaP .details-38sfDr {
+    color: var(--text-color) !important;
+}
+.activityUserPopout-2yItg2 .colorGrey-2DXtkV, .activityProfile-2bJRaP .colorGrey-2DXtkV {
+    background-color: transparent !important;
+    border: var(--text-color) 2px solid;
+    transition: 0.5s;
+}
+.activityUserPopout-2yItg2 .colorGrey-2DXtkV:hover, .activityProfile-2bJRaP .colorGrey-2DXtkV:hover {
+    background-color: var(--text-color) !important;
+    border-color: transparent;
+    color: black !important;
+}
+.activityUserPopout-2yItg2 .nameWrap-3Z4G_9.textRow-19NEd_.base-1x0h_U.size14-e6ZScH[title]::after, .activityProfile-2bJRaP .nameWrap-3Z4G_9.textRow-19NEd_.base-1x0h_U.size14-e6ZScH[title]::after, .activityUserPopout-2yItg2 .detailsWrap-22pigg.textRow-19NEd_::after, .activityProfile-2bJRaP .detailsWrap-22pigg.textRow-19NEd_::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: var(--twitch-bg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+}
+.activityUserPopout-2yItg2 .timeBarUserPopout-AWPFf2::after, .activityProfile-2bJRaP .timeBarUserPopout-AWPFf2::after, .activityUserPopout-2yItg2 .timeBarProfile-10b-fm::after, .activityProfile-2bJRaP .timeBarProfile-10b-fm::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: var(--spotify-bg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+}
+.activityUserPopout-2yItg2 .spotifyIcon-2J9kSv, .activityProfile-2bJRaP .spotifyIcon-2J9kSv {
+    margin: 5px 5px 0px 0px;
+}
+.activityUserPopout-2yItg2 .spotifyIcon-2J9kSv path, .activityProfile-2bJRaP .spotifyIcon-2J9kSv path {
+    fill: var(--text-color);
+}
+.activityUserPopout-2yItg2 .contentNoImagesUserPopout-PCCPyZ::after, .activityProfile-2bJRaP .contentNoImagesUserPopout-PCCPyZ::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: var(--bot-bg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+}
+.activityProfile-2bJRaP {
+    margin: 10px;
+    border-radius: 6px;
+}
+.activityProfile-2bJRaP .spotifyIcon-2J9kSv {
+    margin: 0px 0px 0px 0px;
+}
