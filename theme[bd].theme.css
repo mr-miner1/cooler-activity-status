@@ -9,7 +9,7 @@
 :root {
     --text-color: #fff;
     --activity-bg: #627ee4;
-    --spotify-bg: var(--spotify-color);
+    --spotify-bg: #1ed860;
     --twitch-bg: #6441a5;
     --bot-bg: #546cc4;
 }
