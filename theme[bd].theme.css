@@ -12,6 +12,7 @@
     --spotify-bg: #1ed860;
     --twitch-bg: #6441a5;
     --bot-bg: #546cc4;
+    --xbox-bg: #107C10;
 }
 .activityUserPopout-2yItg2, .activityProfile-2bJRaP {
     background-color: var(--activity-bg);
@@ -78,4 +79,15 @@
 }
 .activityProfile-2bJRaP .spotifyIcon-2J9kSv {
     margin: 0px 0px 0px 0px;
+}
+.xboxAssets-aGhVw8 ~ div::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: var(--xbox-bg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
 }
