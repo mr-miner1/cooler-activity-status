@@ -11,15 +11,15 @@
   h3, .content-3JfFJh, .activityName-1IaRLn, .details-38sfDr{
     color: var(--text-color) !important;
   }
-  .colorGrey-2DXtkV{
+  .button-2IFFQ4{
     background-color: transparent !important;
     border: var(--text-color) 2px solid;
     transition: 0.5s;
-  }
-  .colorGrey-2DXtkV:hover{
-    background-color: var(--text-color) !important;
-    border-color: transparent;
-    color: black !important;
+    &:hover{
+      background-color: var(--text-color) !important;
+      border-color: transparent;
+      color: black !important;
+    }
   }
   //defualt
   background-color: var(--activity-bg);

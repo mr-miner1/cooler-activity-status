@@ -24,12 +24,12 @@
 .activityUserPopout-2yItg2 h3, .activityProfile-2bJRaP h3, .activityUserPopout-2yItg2 .content-3JfFJh, .activityProfile-2bJRaP .content-3JfFJh, .activityUserPopout-2yItg2 .activityName-1IaRLn, .activityProfile-2bJRaP .activityName-1IaRLn, .activityUserPopout-2yItg2 .details-38sfDr, .activityProfile-2bJRaP .details-38sfDr {
     color: var(--text-color) !important;
 }
-.activityUserPopout-2yItg2 .colorGrey-2DXtkV, .activityProfile-2bJRaP .colorGrey-2DXtkV {
+.activityUserPopout-2yItg2 .button-2IFFQ4, .activityProfile-2bJRaP .button-2IFFQ4 {
     background-color: transparent !important;
     border: var(--text-color) 2px solid;
     transition: 0.5s;
 }
-.activityUserPopout-2yItg2 .colorGrey-2DXtkV:hover, .activityProfile-2bJRaP .colorGrey-2DXtkV:hover {
+.activityUserPopout-2yItg2 .button-2IFFQ4:hover, .activityProfile-2bJRaP .button-2IFFQ4:hover {
     background-color: var(--text-color) !important;
     border-color: transparent;
     color: black !important;
