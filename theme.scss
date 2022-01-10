@@ -1,21 +1,26 @@
-:root{
+:root {
   --text-color: #fff;
   --activity-bg: #627ee4;
   --spotify-bg: #1ed860;
   --twitch-bg: #6441a5;
   --bot-bg: #546cc4;
-  --xbox-bg: #107C10;
+  --xbox-bg: #107c10;
 }
-.activityUserPopout-2yItg2, .activityProfile-2bJRaP{
+
+.activityUserPopout-2MzGCj,
+.activityProfile-1712BN {
   //styling
-  h3, .content-3JfFJh, .activityName-1IaRLn, .details-38sfDr{
+  h3,
+  .content-tXPNDw,
+  .activityName-3YXl6e,
+  .details-2-ciHo {
     color: var(--text-color) !important;
   }
-  .button-2IFFQ4{
+  .colorGrey-2iAG-B {
     background-color: transparent !important;
     border: var(--text-color) 2px solid;
     transition: 0.5s;
-    &:hover{
+    &:hover {
       background-color: var(--text-color) !important;
       border-color: transparent;
       color: black !important;
@@ -28,21 +33,23 @@
   margin-bottom: 10px;
   z-index: 1;
   //twitch
-  .nameWrap-3Z4G_9.textRow-19NEd_.base-1x0h_U.size14-e6ZScH[title], .detailsWrap-22pigg.textRow-19NEd_{
-    &::after{
+  .detailsWrap-omKn0b.textRow-1sENuL[title] {
+    &::after {
       content: "";
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-    background-color: var(--twitch-bg);
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 6px;
-  }}
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+      background-color: var(--twitch-bg);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 6px;
+    }
+  }
   //spotify
-  .timeBarUserPopout-AWPFf2, .timeBarProfile-10b-fm{
-    &::after{
+  .timeBarUserPopout-qLXZaR,
+  .timeBarProfile-1z_HH- {
+    &::after {
       content: "";
       width: 100%;
       height: 100%;
@@ -54,15 +61,15 @@
       border-radius: 6px;
     }
   }
-  .spotifyIcon-2J9kSv{
+  .platformIcon-k3yytQ {
     margin: 5px 5px 0px 0px;
-    path{
+    path {
       fill: (var(--text-color));
     }
   }
   // bots
-  .contentNoImagesUserPopout-PCCPyZ{
-    &::after{
+  .contentNoImagesUserPopout-12NyFa {
+    &::after {
       content: "";
       width: 100%;
       height: 100%;
@@ -75,11 +82,11 @@
     }
   }
   //xbox
-  .xboxAssets-aGhVw8 ~ div::after{
+  .xboxAssets-aGhVw8 ~ div::after {
     content: "";
     width: 100%;
     height: 100%;
-    z-index:-2;
+    z-index: -2;
     background-color: var(--xbox-bg);
     position: absolute;
     top: 0;
@@ -87,10 +94,10 @@
     border-radius: 6px;
   }
 }
-.activityProfile-2bJRaP{
+.activityProfile-1712BN {
   margin: 10px;
   border-radius: 6px;
-  .spotifyIcon-2J9kSv{
-    margin: 0px 0px 0px 0px;
+  .platformIcon-k3yytQ {
+    margin: 0px;
   }
 }
