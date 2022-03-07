@@ -14,27 +14,27 @@
     --bot-bg: #546cc4;
     --xbox-bg: #107C10;
 }
-.activityUserPopout-2yItg2, .activityProfile-2bJRaP {
+.activityUserPopout-2MzGCj, .activityProfile-1712BN {
     background-color: var(--activity-bg);
     padding: 10px;
     border-radius: 6px;
     margin-bottom: 10px;
     z-index: 1;
 }
-.activityUserPopout-2yItg2 h3, .activityProfile-2bJRaP h3, .activityUserPopout-2yItg2 .content-3JfFJh, .activityProfile-2bJRaP .content-3JfFJh, .activityUserPopout-2yItg2 .activityName-1IaRLn, .activityProfile-2bJRaP .activityName-1IaRLn, .activityUserPopout-2yItg2 .details-38sfDr, .activityProfile-2bJRaP .details-38sfDr {
+.activityUserPopout-2MzGCj h3, .activityProfile-1712BN h3, .activityUserPopout-2MzGCj .content-tXPNDw, .activityProfile-1712BN .content-tXPNDw, .activityUserPopout-2MzGCj .activityName-3YXl6e, .activityProfile-1712BN .activityName-3YXl6e, .activityUserPopout-2MzGCj .details-2-ciHo, .activityProfile-1712BN .details-2-ciHo {
     color: var(--text-color) !important;
 }
-.activityUserPopout-2yItg2 .button-2IFFQ4, .activityProfile-2bJRaP .button-2IFFQ4 {
+.activityUserPopout-2MzGCj .button-TGAkj4, .activityProfile-1712BN .button-TGAkj4 {
     background-color: transparent !important;
     border: var(--text-color) 2px solid;
     transition: 0.5s;
 }
-.activityUserPopout-2yItg2 .button-2IFFQ4:hover, .activityProfile-2bJRaP .button-2IFFQ4:hover {
+.activityUserPopout-2MzGCj .button-TGAkj4:hover, .activityProfile-1712BN .button-TGAkj4:hover {
     background-color: var(--text-color) !important;
     border-color: transparent;
     color: black !important;
 }
-.activityUserPopout-2yItg2 .nameWrap-3Z4G_9.textRow-19NEd_.base-1x0h_U.size14-e6ZScH[title]::after, .activityProfile-2bJRaP .nameWrap-3Z4G_9.textRow-19NEd_.base-1x0h_U.size14-e6ZScH[title]::after, .activityUserPopout-2yItg2 .detailsWrap-22pigg.textRow-19NEd_::after, .activityProfile-2bJRaP .detailsWrap-22pigg.textRow-19NEd_::after {
+.activityUserPopout-2MzGCj .nameWrap-3TyM52.textRow-1sENuL.base-21yXnu.size14-3fJ-ot[title]::after, .activityProfile-1712BN .nameWrap-3TyM52.textRow-1sENuL.base-21yXnu.size14-3fJ-ot[title]::after, .activityUserPopout-2MzGCj .detailsWrap-omKn0b.textRow-1sENuL::after, .activityProfile-1712BN .detailsWrap-omKn0b.textRow-1sENuL::after {
     content: "";
     width: 100%;
     height: 100%;
@@ -45,7 +45,7 @@
     left: 0;
     border-radius: 6px;
 }
-.activityUserPopout-2yItg2 .timeBarUserPopout-AWPFf2::after, .activityProfile-2bJRaP .timeBarUserPopout-AWPFf2::after, .activityUserPopout-2yItg2 .timeBarProfile-10b-fm::after, .activityProfile-2bJRaP .timeBarProfile-10b-fm::after {
+.activityUserPopout-2MzGCj .timeBarUserPopout-qLXZaR::after, .activityProfile-1712BN .timeBarUserPopout-qLXZaR::after, .activityUserPopout-2MzGCj .timeBarProfile-1z_HH-::after, .activityProfile-1712BN .timeBarProfile-1z_HH-::after {
     content: "";
     width: 100%;
     height: 100%;
@@ -56,13 +56,13 @@
     left: 0;
     border-radius: 6px;
 }
-.activityUserPopout-2yItg2 .spotifyIcon-2J9kSv, .activityProfile-2bJRaP .spotifyIcon-2J9kSv {
+.activityUserPopout-2MzGCj .spotifyIcon-2J9kSv, .activityProfile-1712BN .spotifyIcon-2J9kSv {
     margin: 5px 5px 0px 0px;
 }
-.activityUserPopout-2yItg2 .spotifyIcon-2J9kSv path, .activityProfile-2bJRaP .spotifyIcon-2J9kSv path {
+.activityUserPopout-2MzGCj .spotifyIcon-2J9kSv path, .activityProfile-1712BN .spotifyIcon-2J9kSv path {
     fill: var(--text-color);
 }
-.activityUserPopout-2yItg2 .contentNoImagesUserPopout-PCCPyZ::after, .activityProfile-2bJRaP .contentNoImagesUserPopout-PCCPyZ::after {
+.activityUserPopout-2MzGCj .contentNoImagesUserPopout-12NyFa::after, .activityProfile-1712BN .contentNoImagesUserPopout-12NyFa::after {
     content: "";
     width: 100%;
     height: 100%;
@@ -73,11 +73,11 @@
     left: 0;
     border-radius: 6px;
 }
-.activityProfile-2bJRaP {
+.activityProfile-1712BN {
     margin: 10px;
     border-radius: 6px;
 }
-.activityProfile-2bJRaP .spotifyIcon-2J9kSv {
+.activityProfile-1712BN .spotifyIcon-2J9kSv {
     margin: 0px 0px 0px 0px;
 }
 .xboxAssets-aGhVw8 ~ div::after {
